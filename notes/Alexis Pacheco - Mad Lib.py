@@ -1,5 +1,5 @@
 noun1 = input("Noun1=")
-verb1 = input("Verb1=")
+verb1 = input("Verb1 ending in ing=")
 noun2 = input("Noun2=")
 noun3 = input("Noun3=")
 name1 = input("Name1=")
