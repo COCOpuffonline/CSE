@@ -8,10 +8,10 @@ while money > 0 and playing:
     rounds += 1
 
     if random.randint (1, 6) + random.randint (1, 6) == 7:
-        money += 5
+        money += 1
+        money += 4
     else:
         playing = True
         if money == 0:
             print("Rounds played")
             print(rounds)
-
