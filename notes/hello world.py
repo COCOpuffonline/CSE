@@ -150,3 +150,107 @@ print(3 != 4)
 a = 3  # A is set to 3
 a == 3 # Is a equal to 3?
 """
+
+# Creating a list
+colors = ["blue", "turquoise", "pink", "orange", "black", "red", "grey", "purple", "brown", "silver"]
+# USE SQUARE BRACKETS!!!!!
+print(colors[1])
+print(colors[0])
+
+# Length of the list
+print("There are %d things in the list." % len(colors))
+
+# Changing Elements in a list
+colors[1] = "Green"
+print(colors)
+
+# Looping through lists
+for item in colors:
+    print(item)
+
+'''
+1. Make a list with 7 items
+2. Change the 3rd thing in the list
+3. Print the item
+4. Print the full list
+'''
+
+new_list = ["Lenovo", "Hp", "MSI", "Razer", "Alienware", "Asus", "Acer"]
+new_list[2] = "MacBook"
+print(new_list)
+print("The last thing in the list is %s" % new_list[len(new_list) - 1])
+
+# Slicing a list
+print(new_list[1:3])
+print(new_list[1:4])
+print(new_list[1:])
+print(new_list[:4])
+
+
+food_list = ["pizza", "tacos", "flan", "ceviche", "enchiladas", "sushi", "spaghetti", "hot wings", "chicken", "pozole",
+             "salmon", "lobster", "noodles", "tamales", "pie", "chili", "sandwich", "soup", "burrito", "chips",
+             "carne asada", "cake", "salad"]
+print(len(food_list))
+
+# Adding stuff to a list
+food_list.append("bacon")
+food_list.append("eggs")
+# Notice that everything is object.method (parameters)
+print(food_list)
+
+food_list.insert(1, "eggo waffles")
+print(food_list)
+
+# Removing things from a list
+food_list.remove("salad")
+print(food_list)
+
+"""
+1. make a new list with 3 items
+2. add a 4th item to the list
+3. remove one of the first three items from the list
+"""
+
+gpu_list = ["gtx 1070", "gtx 1050", "gtx 1050 ti"]
+print(gpu_list)
+
+gpu_list.append("rtx 2080")
+print(gpu_list)
+
+gpu_list.remove("gtx 1070")
+print(gpu_list)
+
+# Tuples
+brands = ("apple", "samsung", "HTC")  # Notice the parentheses
+
+# Also removing stuff from a list
+print(food_list)
+food_list.pop(0)
+print(food_list)
+
+# Find the index of an item
+print(food_list.index("chicken"))
+
+# Changing things into a list
+string1 = "turquoise"
+list1 = list(string1)
+print(list1)
+
+# Turn a list in a string
+print("".join(list1))
+
+for i in range(len(list1)):  # i goes through all indices
+    if list1[i] == "u":  # if we find a U
+        list1.pop(i)  # remove the i-th index
+        list1.insert(i, "*")  # Put a * there instead
+
+'''
+for character in list1:
+    if character == "u":
+        # replace with a *
+        current_index = list1.index)characters)
+        list1.pop(current_index
+        list1.insert(current _index, "*")
+'''
+
+# Turn a list into a string
