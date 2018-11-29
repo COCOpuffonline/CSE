@@ -16,7 +16,8 @@
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Guess_Game.coverage" NAME="Alexis Pacheco - Guess Game Coverage Results" MODIFIED="1541788535551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Mad_Lib.coverage" NAME="Alexis Pacheco - Mad Lib Coverage Results" MODIFIED="1540575382570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Guess_Game_2.coverage" NAME="Alexis Pacheco - Guess Game 2 Coverage Results" MODIFIED="1541175298561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/notes$hello_world.coverage" NAME="hello world Coverage Results" MODIFIED="1543340506784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$hello_world.coverage" NAME="hello world Coverage Results" MODIFIED="1543510941638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Mad_Lib2.coverage" NAME="Alexis Pacheco - Mad Lib2 Coverage Results" MODIFIED="1543513270551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,6 +45,7 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -56,31 +58,31 @@
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="9795" />
+          <entry key="py" value="10198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="9795" />
+          <entry key="Python" value="10198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -95,13 +97,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+            <state relative-caret-position="921">
+              <caret line="253" column="3" lean-forward="true" selection-start-line="253" selection-start-column="3" selection-end-line="253" selection-end-column="3" />
               <folding>
-                <marker date="1543340819541" expanded="true" signature="1346:1351" ph="..." />
-                <marker date="1543340819541" expanded="true" signature="1429:1434" ph="..." />
-                <marker date="1543340819541" expanded="true" signature="1519:1524" ph="..." />
-                <marker date="1543340819541" expanded="true" signature="2146:2151" ph="..." />
+                <marker date="1543511197683" expanded="true" signature="1346:1351" ph="..." />
+                <marker date="1543511197683" expanded="true" signature="1429:1434" ph="..." />
+                <marker date="1543511197683" expanded="true" signature="1519:1524" ph="..." />
+                <marker date="1543511197683" expanded="true" signature="2146:2151" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,10 +112,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -147,8 +154,8 @@
         <option value="$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Random.py" />
         <option value="$PROJECT_DIR$/venv/Alexis Pacheco - Lucky 7s.py" />
         <option value="$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Hangman.py" />
-        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py" />
+        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py" />
       </list>
     </option>
@@ -159,7 +166,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="702" />
@@ -210,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello world">
+  <component name="RunManager" selected="Python.Alexis Pacheco - Mad Lib2">
     <configuration name="Alexis Pacheco - Guess Game 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Alexis Pacheco - Mad Lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Alexis Pacheco - Mad Lib2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,7 +297,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,18 +330,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello world" />
-      <item itemvalue="Python.Alexis Pacheco - Mad Lib" />
       <item itemvalue="Python.Alexis Pacheco - Guess Game" />
       <item itemvalue="Python.Alexis Pacheco - Guess Game 2" />
       <item itemvalue="Python.Alexis Pacheco - Lucky 7s" />
+      <item itemvalue="Python.Alexis Pacheco - Mad Lib2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Alexis Pacheco - Mad Lib2" />
         <item itemvalue="Python.hello world" />
         <item itemvalue="Python.Alexis Pacheco - Lucky 7s" />
         <item itemvalue="Python.Alexis Pacheco - Guess Game" />
         <item itemvalue="Python.Alexis Pacheco - Guess Game 2" />
-        <item itemvalue="Python.Alexis Pacheco - Mad Lib" />
       </list>
     </recent_temporary>
   </component>
@@ -352,11 +359,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22239032" />
+      <window_info id="Structure" order="1" side_tool="true" visible="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -378,6 +385,30 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21967213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,29 +454,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="117" lean-forward="true" selection-end-line="14" selection-end-column="117" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hello world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+        <state relative-caret-position="921">
+          <caret line="253" column="3" lean-forward="true" selection-start-line="253" selection-start-column="3" selection-end-line="253" selection-end-column="3" />
           <folding>
-            <marker date="1543340819541" expanded="true" signature="1346:1351" ph="..." />
-            <marker date="1543340819541" expanded="true" signature="1429:1434" ph="..." />
-            <marker date="1543340819541" expanded="true" signature="1519:1524" ph="..." />
-            <marker date="1543340819541" expanded="true" signature="2146:2151" ph="..." />
+            <marker date="1543511197683" expanded="true" signature="1346:1351" ph="..." />
+            <marker date="1543511197683" expanded="true" signature="1429:1434" ph="..." />
+            <marker date="1543511197683" expanded="true" signature="1519:1524" ph="..." />
+            <marker date="1543511197683" expanded="true" signature="2146:2151" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="272">
+          <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
         </state>
       </provider>
     </entry>
