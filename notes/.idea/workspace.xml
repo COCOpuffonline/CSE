@@ -14,12 +14,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Lucky_7s.coverage" NAME="Alexis Pacheco - Lucky 7s Coverage Results" MODIFIED="1542215618685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Guess_Game.coverage" NAME="Alexis Pacheco - Guess Game Coverage Results" MODIFIED="1541788535551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Challenges.coverage" NAME="Alexis Pacheco - Challenges Coverage Results" MODIFIED="1543858913460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Challenges.coverage" NAME="Alexis Pacheco - Challenges Coverage Results" MODIFIED="1543942885206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Mad_Lib.coverage" NAME="Alexis Pacheco - Mad Lib Coverage Results" MODIFIED="1540575382570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Guess_Game_2.coverage" NAME="Alexis Pacheco - Guess Game 2 Coverage Results" MODIFIED="1541175298561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Fix_It.coverage" NAME="Alexis Pacheco - Fix.It Coverage Results" MODIFIED="1543602469946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Fix_It.coverage" NAME="Alexis Pacheco - Fix.It Coverage Results" MODIFIED="1543944916789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/notes$hello_world.coverage" NAME="hello world Coverage Results" MODIFIED="1543856413715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Mad_Lib2.coverage" NAME="Alexis Pacheco - Mad Lib2 Coverage Results" MODIFIED="1543513270551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Alexis_Pacheco___Mad_Lib2.coverage" NAME="Alexis Pacheco - Mad Lib2 Coverage Results" MODIFIED="1543944034222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,7 +39,7 @@
     <session id="416132820">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -47,7 +47,7 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
@@ -62,31 +62,31 @@
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.90" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="17" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="17" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="11360" />
+          <entry key="py" value="11561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="11360" />
+          <entry key="Python" value="11561" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -101,12 +101,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Challenges.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <marker date="1543858913351" expanded="true" signature="52:57" ph="..." />
-                <marker date="1543858913351" expanded="true" signature="165:170" ph="..." />
+                <marker date="1543945392614" expanded="true" signature="52:57" ph="..." />
+                <marker date="1543945392614" expanded="true" signature="165:170" ph="..." />
+                <marker date="1543945392614" expanded="true" signature="364:370" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Fix.It.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -114,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2570">
-              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+            <state relative-caret-position="528">
+              <caret line="265" selection-start-line="265" selection-end-line="265" />
               <folding>
                 <marker date="1543856412798" expanded="true" signature="1346:1351" ph="..." />
                 <marker date="1543856412798" expanded="true" signature="1429:1434" ph="..." />
@@ -131,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -139,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -168,9 +178,9 @@
         <option value="$PROJECT_DIR$/venv/Alexis Pacheco - Lucky 7s.py" />
         <option value="$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Hangman.py" />
         <option value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py" />
+        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py" />
         <option value="$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Fix.It.py" />
-        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Challenges.py" />
       </list>
     </option>
@@ -192,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +246,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Alexis Pacheco - Challenges">
+  <component name="RunManager" selected="Python.Alexis Pacheco - Fix.It">
     <configuration name="Alexis Pacheco - Challenges" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -403,9 +413,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Alexis Pacheco - Mad Lib2" />
         <item itemvalue="Python.Alexis Pacheco - Challenges" />
         <item itemvalue="Python.hello world" />
-        <item itemvalue="Python.Alexis Pacheco - Mad Lib2" />
         <item itemvalue="Python.Alexis Pacheco - Lucky 7s" />
         <item itemvalue="Python.Alexis Pacheco - Guess Game" />
       </list>
@@ -431,12 +441,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49369746" visible="true" weight="0.22541603" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49369746" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" sideWeight="0.50630254" side_tool="true" weight="0.22541603" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21967213" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21967213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,31 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Fix.It.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2570">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        <state relative-caret-position="528">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
           <folding>
             <marker date="1543856412798" expanded="true" signature="1346:1351" ph="..." />
             <marker date="1543856412798" expanded="true" signature="1429:1434" ph="..." />
@@ -557,13 +546,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Mad Lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Fix.It.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Scripts/Alexis Pacheco - Challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
-            <marker date="1543858913351" expanded="true" signature="52:57" ph="..." />
-            <marker date="1543858913351" expanded="true" signature="165:170" ph="..." />
+            <marker date="1543945392614" expanded="true" signature="52:57" ph="..." />
+            <marker date="1543945392614" expanded="true" signature="165:170" ph="..." />
+            <marker date="1543945392614" expanded="true" signature="364:370" ph="..." />
           </folding>
         </state>
       </provider>

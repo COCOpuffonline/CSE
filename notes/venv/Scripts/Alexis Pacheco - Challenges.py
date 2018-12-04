@@ -1,6 +1,6 @@
 # Challenge 1
 def challenge1(first_name, last_name):
-    print(last_name, first_name)
+    print(first_name, last_name)
 
 
 challenge1("Pacheco", "Alexis")
@@ -14,3 +14,7 @@ def challenge2(random_number):
 
 
 challenge2(19)
+
+# Challenge 3
+def chanllenge3(formula_triangle):
+    
