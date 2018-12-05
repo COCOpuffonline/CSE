@@ -17,4 +17,5 @@ challenge2(19)
 
 # Challenge 3
 def chanllenge3(formula_triangle):
+    return ()
     
