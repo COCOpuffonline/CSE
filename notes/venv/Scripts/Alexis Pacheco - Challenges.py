@@ -5,15 +5,6 @@ def challenge1(first_name, last_name):
 
 challenge1("Pacheco", "Alexis")
 
-# Challenge 2 Not finished
-def challenge2(random_number):
-    if random_number // 2:
-        return "This number is an even number."
-    else:
-        return "This number is an odd number."
-
-
-challenge2(19)
 
 # Challenge 3
 def challenge3(b, h):
@@ -28,3 +19,17 @@ def challenge5(r):
 
 
 print(challenge5(1.1))
+
+# Challenge 6
+def challenge6(r):
+    return (4/3 * 3.14) * r ** 3
+
+
+print(challenge6(3))
+
+# Challenge8
+def challenge8(n):
+    return (n + n*n) + (n*n*n)
+
+print(challenge8(5))
+
