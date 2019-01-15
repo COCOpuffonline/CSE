@@ -1,14 +1,11 @@
 import random
-guesses_left = 8
-playing = True
 
-print("I am thinking of a word, what is it?")
+print("I am thinking of a random word what is it?")
 
-word_list = ["dog", "mouse", "Volcano", "Computer!", "Concatenation", "slide", "desktop", "shoe", "sweater", "backpack"]
+words = ["dog", "mouse", "Volcano", "Computer!", "Concatenation", "slide", "desktop", "shoe", "sweater", "backpack"]
 
-randword = (random.choice(word_list))
+randword = random.choice(words)
+print(random.choice(words))
 
-word_list = len(random.choice)
-print(word_list)
-
-# output = []
+random.choice = '*' * len(randword)
+print(random.choice)
