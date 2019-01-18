@@ -35,6 +35,6 @@ while guesses > 0 and len(word_list) > 0:
     if guesses <= 0:
         print("You ran out of guesses. GAME OVER")
     if len(word_list) == 0:
-        print("You won!!!")
+        print("You won!")
         print("The word was %s" % word_selection)
 
