@@ -15,8 +15,6 @@ length = len(word_selection)
 for i in range(length):
     output.append("*")
 print("".join(output))
-print(word_selection)
-
 
 while guesses > 0 and len(word_list) > 0:
     user_guess = input("Guess a letter -")
@@ -38,5 +36,5 @@ while guesses > 0 and len(word_list) > 0:
         print("It really do be like that sometimes.(GAME OVER)")
     if len(word_list) == 0:
         print("You won!")
-        print("The word was %s dummy" % word_selection)
+        print("The word was %s with a Z" % word_selection)
 
