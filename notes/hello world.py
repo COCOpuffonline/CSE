@@ -263,3 +263,10 @@ def pythagorean(a, b):
 
 
 print(pythagorean(3, 4))
+
+states = {
+    "CA": "California",
+    "FL": "Florida",
+    "AK": "Alaska",
+    "GA": "Georgia"
+}
