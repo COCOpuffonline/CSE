@@ -75,10 +75,68 @@ world_map = {
         }
     },
     'STAIRS': {
-        'NAME':
-
-
-
+        'NAME': 'Stairs',
+        'DESCRIPTION': "You are now in the middle of the stairs,"
+                       " you can go back up to the first floor",
+                       " or go down to the basement."
+        'PATHS': {
+            'DOWN': 'BASEMENT_MAIN_ROOM',
+            'UP': 'HALLWAY_1'
+        }
+    },
+    'BM_MAIN_ROOM': {
+        'NAME': 'BM Main Room',
+        'DESCRIPTION': "The room is slightly flood up to your "
+                       "ankles and there are a few bodies on a table ",
+                       "which stink."
+        'PATHS': {
+            'NORTH': 'STAIRS',
+            'SOUTH': 'PRISON_ROOM'
+        }
+    },
+    'PRISON_ROOM': {
+        'NAME': 'Prison room',
+        'DESCRIPTION': "It is dark and there are two shelves",
+        'PATHS': {
+            'NORTH': 'BM_MAIN_ROOM',
+            'WEST': 'WORK_ROOM'
+        }
+    },
+    'WORK_ROOM': {
+        'NAME': 'Work room',
+        'DESCRIPTION': "You have reached the work room and"
+                       "notice a few tools on the bench "
+                       "which you can you.",
+        'PATHS': {
+            'EAST': 'PRISON_ROOM',
+            'SOUTH': 'DISSECTION_ROOM'
+        }
+    },
+    'DISSECTION_ROOM': {
+        'NAME': 'Dissection room',
+        'DESCRIPTION': "You are in a damp room which smells awful.",
+        'PATHS': {
+            'NORTH': 'WORK_ROOM',
+            'EAST': 'HALLWAY_4'
+        }
+    },
+    'HALLWAY_4': {
+        'NAME': 'Hallway 4',
+        'DESCRIPTION': "You are in a dark hallway, to the west is the dissection room"
+                       " and at the north side is another door.",
+        'PATHS': {
+            'WEST': 'DISSECTION_ROOM',
+            'NORTH': 'LIVING_ROOM'
+        }
+    },
+    'LIVING_ROOM': {
+        'NAME': 'Living room',
+        'DESCRIPTION': "This room is oddly dry and has furniture.",
+        'PATHS': {
+            'SOUTH': 'HALLWAY_4',
+            'NORHT': 'HALLWAY_5'
+        }
+    },
         }
     }
 }

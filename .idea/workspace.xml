@@ -20,7 +20,7 @@
     <SUITE FILE_PATH="coverage/CSE$Dictionary_Notes.coverage" NAME="Dictionary Notes Coverage Results" MODIFIED="1549044813566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Hangman_2.coverage" NAME="Alexis Pacheco - Hangman 2 Coverage Results" MODIFIED="1548697386919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Shutdown_laptop.coverage" NAME="Shutdown laptop Coverage Results" MODIFIED="1547231284283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
-    <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Adventure_Game.coverage" NAME="Alexis Pacheco - Adventure Game Coverage Results" MODIFIED="1549387358142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Adventure_Game.coverage" NAME="Alexis Pacheco - Adventure Game Coverage Results" MODIFIED="1549474545000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Semester_2_Notes.coverage" NAME="Semester 2 Notes Coverage Results" MODIFIED="1547571989639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -41,11 +41,13 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -55,17 +57,17 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5980" />
+          <entry key="py" value="8418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5980" />
+          <entry key="Python" value="8418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,8 +105,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="128">
+              <caret line="138" column="6" lean-forward="true" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+              <folding>
+                <element signature="e#31#381#0" />
+                <element signature="e#402#695#0" />
+                <element signature="e#613#689#0" />
+                <element signature="e#714#1047#0" />
+                <element signature="e#1064#1355#0" />
+                <element signature="e#1116#1254#0" />
+                <element signature="e#1273#1349#0" />
+                <element signature="e#1379#1637#0" />
+                <element signature="e#1438#1569#0" />
+                <element signature="e#1588#1631#0" />
+                <element signature="e#1656#1927#0" />
+                <element signature="e#1951#2128#0" />
+                <element signature="e#2077#2122#0" />
+                <element signature="e#2146#2322#0" />
+                <element signature="e#2341#2534#0" />
+                <element signature="e#2550#2843#0" />
+                <element signature="e#2865#3172#0" />
+                <element signature="e#2922#3033#0" />
+                <element signature="e#3032#3062#0" />
+                <element signature="e#3156#3278#0" />
+                <element signature="e#3424#3546#0" />
+                <element signature="e#3492#3555#0" />
+                <element signature="e#3765#3971#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Dictionary World Map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            <state relative-caret-position="-16">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -121,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TESTING.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -373,12 +400,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23071104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26885247" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26885247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,22 +515,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TESTING.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Dictionary World Map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        <state relative-caret-position="-16">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="128">
+          <caret line="138" column="6" lean-forward="true" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+          <folding>
+            <element signature="e#31#381#0" />
+            <element signature="e#402#695#0" />
+            <element signature="e#613#689#0" />
+            <element signature="e#714#1047#0" />
+            <element signature="e#1064#1355#0" />
+            <element signature="e#1116#1254#0" />
+            <element signature="e#1273#1349#0" />
+            <element signature="e#1379#1637#0" />
+            <element signature="e#1438#1569#0" />
+            <element signature="e#1588#1631#0" />
+            <element signature="e#1656#1927#0" />
+            <element signature="e#1951#2128#0" />
+            <element signature="e#2077#2122#0" />
+            <element signature="e#2146#2322#0" />
+            <element signature="e#2341#2534#0" />
+            <element signature="e#2550#2843#0" />
+            <element signature="e#2865#3172#0" />
+            <element signature="e#2922#3033#0" />
+            <element signature="e#3032#3062#0" />
+            <element signature="e#3156#3278#0" />
+            <element signature="e#3424#3546#0" />
+            <element signature="e#3492#3555#0" />
+            <element signature="e#3765#3971#0" />
+          </folding>
         </state>
       </provider>
     </entry>
