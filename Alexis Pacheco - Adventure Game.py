@@ -77,20 +77,20 @@ world_map = {
     'STAIRS': {
         'NAME': 'Stairs',
         'DESCRIPTION': "You are now in the middle of the stairs,"
-                       " you can go back up to the first floor",
-                       " or go down to the basement."
+                       " you can go back up to the first floor"
+                       " or go down to the basement.",
         'PATHS': {
-            'DOWN': 'BASEMENT_MAIN_ROOM',
+            'DOWN': 'BASEMENT_SUPPLY_ROOM',
             'UP': 'HALLWAY_1'
         }
     },
-    'BM_MAIN_ROOM': {
-        'NAME': 'BM Main Room',
+    'BM_SECRET_ROOM': {
+        'NAME': 'BM Secret Room',
         'DESCRIPTION': "The room is slightly flood up to your "
                        "ankles and there are a few bodies on a table ",
                        "which stink."
         'PATHS': {
-            'NORTH': 'STAIRS',
+            'UP': 'SECRET_ROOM',
             'SOUTH': 'PRISON_ROOM'
         }
     },
@@ -98,7 +98,7 @@ world_map = {
         'NAME': 'Prison room',
         'DESCRIPTION': "It is dark and there are two shelves",
         'PATHS': {
-            'NORTH': 'BM_MAIN_ROOM',
+            'NORTH': 'SECRET_ROOM',
             'WEST': 'WORK_ROOM'
         }
     },
@@ -134,9 +134,43 @@ world_map = {
         'DESCRIPTION': "This room is oddly dry and has furniture.",
         'PATHS': {
             'SOUTH': 'HALLWAY_4',
-            'NORHT': 'HALLWAY_5'
+            'NORTH': 'HALLWAY_5'
         }
     },
+    'HALLWAY_5': {
+        'NAME': 'Hallway 5',
+        'DESCRIPTION': "You can see two doors, on the west side you see"
+                       " a door with a little light coming out, and to the"
+                       " east is another room.",
+        'PATHS': {
+            'SOUTH': 'LIVING_ROOM',
+            'WEST': 'BASEMENT_SUPPLY_ROOM'
+        }
+    },
+    'BASEMENT_SUPPLY_ROOM': {
+        'NAME': 'Basement supply room',
+        'DESCRIPTION': "The stench in this room is awful and it is extremely dark."
+                       " You also hear weird noises on the ceiling.",
+        'PATHS': {
+            'SOUTH': 'STAIRS',
+            'NORTH': 'BODY_STORAGE_ROOM',
+            'EAST': 'HALLWAY_5'
+        }
+    },
+    'BODY_STORAGE_ROOM': {
+        'NAME': 'Body storage room',
+        'DESCRIPTION': "You notice a two body bags on a table on is open and the other is not.",
+        'PATHS': {
+            'SOUTH': 'BASEMENT_SUPPLY_ROOM',
+            'EAST': 'BASEMENT_TOOL_STORAGE'
+        }
+    },
+    'TOOL_STORAGE_ROOM': {
+        'NAME': 'Tool room',
+        'DESCRIPTION': "There are a whole bunch of tool that you can use but they"
+                       " are in locked tool boxes.",
+        'PATHS': {
+            'WEST': 'BODY_STORAGE_ROOM'
         }
     }
 }
