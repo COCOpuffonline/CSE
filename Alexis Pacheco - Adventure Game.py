@@ -1,6 +1,6 @@
 world_map = {
     'MAIN_ROOM': {
-        'NAME': "Room #1",
+        'NAME': "Main Room",
         'DESCRIPTION': "You wake up in a very filthy room and you do not remember how you got there."
                        "There is a couch in the middle of the room and a chimney that has not been used in a while.",
         'PATHS': {
