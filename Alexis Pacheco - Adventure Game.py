@@ -18,7 +18,7 @@ world_map = {
         }
     },
     'HALLWAY_2': {
-        'NAME': "Hallway 1",
+        'NAME': "Hallway 2",
         'DESCRIPTION': "To the north you see a door, on the south side there is another door, and to the west is a"
                        "a room without a door.",
         'PATHS': {
