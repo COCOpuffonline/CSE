@@ -43,7 +43,7 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -59,20 +59,21 @@
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.61" value="2" />
+          <entry key="project.open.time.61" value="3" />
           <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.67" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14272" />
+          <entry key="py" value="14536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="14272" />
+          <entry key="Python" value="14536" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,7 +89,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49848714">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -112,8 +113,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2005">
-                  <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -124,7 +125,7 @@
                 <state relative-caret-position="170">
                   <caret line="10" selection-start-line="10" selection-end-line="10" />
                   <folding>
-                    <marker date="1550770929714" expanded="true" signature="19:24" ph="..." />
+                    <marker date="1550855508788" expanded="true" signature="19:24" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -133,10 +134,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="44" selection-end-column="33" />
+                <state relative-caret-position="748">
+                  <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
                   <folding>
-                    <marker date="1550252567524" expanded="true" signature="20:21" ph="..." />
+                    <marker date="1550855508866" expanded="true" signature="20:21" ph="..." />
+                    <marker date="1550855508866" expanded="true" signature="1470:1479" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -158,10 +160,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+                <state relative-caret-position="170">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                   <folding>
-                    <marker date="1550770929714" expanded="true" signature="19:24" ph="..." />
+                    <marker date="1550855508788" expanded="true" signature="19:24" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -195,10 +197,10 @@
         <option value="$PROJECT_DIR$/TESTING.py" />
         <option value="$PROJECT_DIR$/Alexis Pacheco - Object Notes.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object Notes.py" />
-        <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Dictionary Notes.py" />
-        <option value="$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py" />
+        <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object.py" />
+        <option value="$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py" />
       </list>
     </option>
   </component>
@@ -219,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,12 +256,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -559,10 +561,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="748">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
-            <marker date="1550252567524" expanded="true" signature="20:21" ph="..." />
+            <marker date="1550855508866" expanded="true" signature="20:21" ph="..." />
+            <marker date="1550855508866" expanded="true" signature="1470:1479" ph="..." />
           </folding>
         </state>
       </provider>
@@ -576,17 +579,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2005">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1550770929714" expanded="true" signature="19:24" ph="..." />
+            <marker date="1550855508788" expanded="true" signature="19:24" ph="..." />
           </folding>
         </state>
       </provider>

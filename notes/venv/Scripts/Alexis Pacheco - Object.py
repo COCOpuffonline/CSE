@@ -5,7 +5,7 @@ class Drone(object):
         self.range_left = 2500
         self.flying = flying
         self.battery_left = charge_left
-        self.storage_left = 512
+        self.storage = 512
 
     def charge(self, time):
         self.battery_left += time
@@ -41,5 +41,5 @@ class Drone(object):
         else:
             print("You took a picture of a beautiful sunset.")
 
-    def flip(self):
+        def flip(self):
         if not self.battery_left:
