@@ -26,13 +26,14 @@ class Car(Vehicle):
         self.engine_status = False
         print("You turn off the car.")
 
-class Impala(object):
+
+class Impala(Car):
     def __init__(self):
         super(Impala, self).__init__("Impala", 25)
 
 
 class KeylessCar(Car):
-    def __init__(self):
+    def __init__(self, name, milage):
         super(KeylessCar, self).__init__(name, milage)
 
     def start_engine(self):
