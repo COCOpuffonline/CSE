@@ -43,19 +43,31 @@ class P90_B_Shot(Weapon):
 
 
 class Armor(Item):
-    def __init__(self, name, defence, equip, unequip):
+    def __init__(self, name, defence, durability):
         super(Armor, self).__init__(name)
         self.defence = defence
-        self.equip = False
-        self.unequip = False
+        self.durability = durability
 
     def equip(self):
-        self.equip = True
-        print("You equip the armor which increases your defence.")
+        print("You equip the armor.")
 
     def unequip(self):
-        self.unequip = True
-        print("You unequip your armor.")
+        print("You unequip the armor.")
+
+
+class wooden_chest_plate(Armor):
+    def __init__(self):
+        super(wooden_chest_plate, self).__init__("wooden chest plate", 10, 25)
+
+class wooden_helmet(Armor):
+    def __init__(self):
+        super(wooden_helmet, self).__init__("wooden helmet", 5, 20)
+
+class wooden_leggings(Armor):
+    def __init(self):
+        super(wooden_leggings, self).__init__("wooden leggings", 10 , 25)
+
+class steel_chest_plate
 
 
 # Work on this later
@@ -65,5 +77,5 @@ class Potion(Item):
         self.health_healed = health_healed
 
     def drink_potion(self):
-        self.health_healed = h
+        self.health_healed =
 
