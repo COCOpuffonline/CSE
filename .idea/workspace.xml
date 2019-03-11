@@ -45,7 +45,7 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -60,6 +60,7 @@
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="1" />
@@ -71,17 +72,17 @@
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="20557" />
+          <entry key="py" value="21034" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="20557" />
+          <entry key="Python" value="21034" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,13 +104,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Inheritance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+                <state relative-caret-position="362">
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
                   <folding>
-                    <marker date="1551465540220" expanded="true" signature="22:27" ph="..." />
-                    <marker date="1551465540220" expanded="true" signature="99:104" ph="..." />
-                    <marker date="1551465540220" expanded="true" signature="681:686" ph="..." />
-                    <marker date="1551465540220" expanded="true" signature="781:1038" ph="..." />
+                    <marker date="1552322647780" expanded="true" signature="22:27" ph="..." />
+                    <marker date="1552322647780" expanded="true" signature="99:104" ph="..." />
+                    <marker date="1552322647780" expanded="true" signature="681:938" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -118,7 +118,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2533">
+                <state relative-caret-position="-370">
                   <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
                 </state>
               </provider>
@@ -167,8 +167,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1139">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                <state relative-caret-position="1377">
+                  <caret line="91" selection-start-line="91" selection-end-line="91" />
                 </state>
               </provider>
             </entry>
@@ -180,10 +180,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+                <state relative-caret-position="441">
+                  <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
                   <folding>
-                    <marker date="1552067036347" expanded="true" signature="1669:1793" ph="..." />
+                    <marker date="1552322647664" expanded="true" signature="2048:2146" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -587,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -630,25 +623,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="362">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1551465540220" expanded="true" signature="22:27" ph="..." />
-            <marker date="1551465540220" expanded="true" signature="99:104" ph="..." />
-            <marker date="1551465540220" expanded="true" signature="681:686" ph="..." />
-            <marker date="1551465540220" expanded="true" signature="781:1038" ph="..." />
+            <marker date="1552322647780" expanded="true" signature="22:27" ph="..." />
+            <marker date="1552322647780" expanded="true" signature="99:104" ph="..." />
+            <marker date="1552322647780" expanded="true" signature="681:938" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="441">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
           <folding>
-            <marker date="1552067036347" expanded="true" signature="1669:1793" ph="..." />
+            <marker date="1552322647664" expanded="true" signature="2048:2146" ph="..." />
           </folding>
         </state>
       </provider>
