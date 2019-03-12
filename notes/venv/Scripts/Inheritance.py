@@ -22,12 +22,8 @@ class Car(Vehicle):
         self.fuel -= 1
         print("The car turns left.")
 
-    def turn_off(self):
-        self.engine_status = False
-        print("You turn off the car.")
 
-
-class Impala(Car):
+.class Impala(Car):
     def __init__(self):
         super(Impala, self).__init__("Impala", 25)
 

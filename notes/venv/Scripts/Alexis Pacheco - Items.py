@@ -42,40 +42,66 @@ class P90_B_Shot(Weapon):
         print("Your guns durability went down.")
 
 
+class spoon(Weapon):
+    def __init__(self):
+        super(spoon, self).__init__("spoon", 40, 400)
+
+
 class Armor(Item):
     def __init__(self, name, defence, durability):
         super(Armor, self).__init__(name)
         self.defence = defence
         self.durability = durability
 
-    def equip(self):
-        print("You equip the armor.")
-
-    def unequip(self):
-        print("You unequip the armor.")
-
 
 class wooden_chest_plate(Armor):
     def __init__(self):
         super(wooden_chest_plate, self).__init__("wooden chest plate", 10, 25)
 
+
 class wooden_helmet(Armor):
     def __init__(self):
         super(wooden_helmet, self).__init__("wooden helmet", 5, 20)
 
+
 class wooden_leggings(Armor):
     def __init(self):
-        super(wooden_leggings, self).__init__("wooden leggings", 10 , 25)
-
-class steel_chest_plate
+        super(wooden_leggings, self).__init__("wooden leggings", 10, 25)
 
 
-# Work on this later
+
+class steel_chest_plate(Armor):
+    def __init__(self):
+        super(steel_chest_plate, self).__init__("steel chest plate", 20, 50)
+
+class steel_helmet(Armor):
+    def __init__(self):
+        super(steel_helmet, self).__init__("steel helmet", 15, 40)
+
+
+class steel_leggings(Armor):
+    def __init__(self):
+        super(steel_leggings, self).__init__("steel leggings", 20, 45)
+
+
 class Potion(Item):
-    def __init__(self, name, health_healed):
+    def __init__(self, name, health_healed, shield, attack_potion):
         super(Potion, self).__init__(name)
         self.health_healed = health_healed
+        self.shield = shield
+        self.attack_potion = attack_potion
 
-    def drink_potion(self):
-        self.health_healed =
 
+class health_potion(Potion):
+    def __init__(self):
+        super(health_potion, self).__init__("health_potion", 25, 0, 0)
+
+
+class shield_potion(Potion):
+    def __init__(self):
+        super(shield_potion, self).__init__("shield potion", 0, 25, 0)
+
+
+class attack_potion(Potion):
+    def __init__(self):
+        super(attack_potion, self).__init__("attack potion", 0, 0, 20)
