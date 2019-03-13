@@ -17,7 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Dictionary_World_Map.coverage" NAME="Alexis Pacheco - Dictionary World Map Coverage Results" MODIFIED="1548956283008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Guess_Game.coverage" NAME="Alexis Pacheco - Guess Game Coverage Results" MODIFIED="1547440160279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv" />
-    <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Items.coverage" NAME="Alexis Pacheco - Items Coverage Results" MODIFIED="1551807339900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Items.coverage" NAME="Alexis Pacheco - Items Coverage Results" MODIFIED="1552495353328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Dictionary_Notes.coverage" NAME="Dictionary Notes Coverage Results" MODIFIED="1549044813566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Hangman_2.coverage" NAME="Alexis Pacheco - Hangman 2 Coverage Results" MODIFIED="1548697386919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Object_Notes.coverage" NAME="Alexis Pacheco - Object Notes Coverage Results" MODIFIED="1550078537027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,7 +45,7 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -63,7 +63,7 @@
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.56" value="2" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.61" value="3" />
@@ -73,44 +73,44 @@
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="21694" />
+          <entry key="py" value="22979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="21694" />
+          <entry key="Python" value="22979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="23" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="23" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4077156">
+    <splitter split-orientation="horizontal" split-proportion="0.38426626">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Inheritance.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="255">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
-                    <marker date="1552408910652" expanded="true" signature="22:27" ph="..." />
-                    <marker date="1552408910652" expanded="true" signature="99:104" ph="..." />
-                    <marker date="1552408910652" expanded="true" signature="683:940" ph="..." />
+                    <marker date="1552409121334" expanded="true" signature="22:27" ph="..." />
+                    <marker date="1552409121334" expanded="true" signature="99:104" ph="..." />
+                    <marker date="1552409121334" expanded="true" signature="682:939" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -168,8 +168,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1547">
-                  <caret line="107" selection-start-line="107" selection-end-line="107" />
+                <state relative-caret-position="1802">
+                  <caret line="142" selection-start-line="142" selection-end-line="142" />
                 </state>
               </provider>
             </entry>
@@ -181,11 +181,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+                <state relative-caret-position="213">
+                  <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
                   <folding>
-                    <marker date="1552408910589" expanded="true" signature="1096:1177" ph="..." />
-                    <marker date="1552408910589" expanded="true" signature="2655:2751" ph="..." />
+                    <marker date="1552495528748" expanded="true" signature="2777:3743" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -223,8 +222,9 @@
         <option value="$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Object Notes.py" />
-        <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py" />
         <option value="$PROJECT_DIR$/notes/venv/Scripts/Inheritance.py" />
+        <option value="$PROJECT_DIR$/notes/venv/Scripts/Character.py" />
+        <option value="$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py" />
       </list>
     </option>
   </component>
@@ -244,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,6 +279,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,7 +460,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26885247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26885247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,21 +632,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
+    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Character.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <marker date="1552494454154" expanded="true" signature="19:24" ph="..." />
+            <marker date="1552494454154" expanded="true" signature="19:98" ph="..." />
+            <marker date="1552494454154" expanded="true" signature="19:99" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <marker date="1552408910652" expanded="true" signature="22:27" ph="..." />
-            <marker date="1552408910652" expanded="true" signature="99:104" ph="..." />
-            <marker date="1552408910652" expanded="true" signature="683:940" ph="..." />
+            <marker date="1552409121334" expanded="true" signature="22:27" ph="..." />
+            <marker date="1552409121334" expanded="true" signature="99:104" ph="..." />
+            <marker date="1552409121334" expanded="true" signature="682:939" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
+          <folding>
+            <marker date="1552495528748" expanded="true" signature="2777:3743" ph="..." />
           </folding>
         </state>
       </provider>

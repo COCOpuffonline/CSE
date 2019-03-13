@@ -69,10 +69,10 @@ class wooden_leggings(Armor):
         super(wooden_leggings, self).__init__("wooden leggings", 10, 25)
 
 
-
 class steel_chest_plate(Armor):
     def __init__(self):
         super(steel_chest_plate, self).__init__("steel chest plate", 20, 50)
+
 
 class steel_helmet(Armor):
     def __init__(self):
@@ -105,3 +105,38 @@ class shield_potion(Potion):
 class attack_potion(Potion):
     def __init__(self):
         super(attack_potion, self).__init__("attack potion", 0, 0, 20)
+
+
+class Character(object):
+    def __init__(self, name, health, weapon, armor):
+        self.name = name
+        self.health = health
+        self.weapon = weapon
+        self.armor = armor
+
+    def take_damage(self, damage: int):
+        if self.armor.armor_amt > damage:
+            print("You take no damage just because.")
+        else:
+            self.health -= damage - self.armor.armor_amt
+        print("%s has %s health left" % (self.name, self.health))
+
+    def attack(self, target):
+        print("%s attacks %s for %s damage" % (self.name, target.name, self.weapon.damage))
+        target.take_damage(self.weapon.damage)
+
+
+# Items
+P90_B_Shot = Weapon("P90 burst shot", 40, 600)
+spoon = Weapon("Spoon", 400, 400)
+steel_chest_plate = Armor("steel_chest_plate", 40, 500)
+
+# Characters
+orc = Character("Orcl", 100, P90, Armor("Steel chestplate", 2, 40))
+orc2 = Character("Wiebe", 10000, spoon, steel_chest_plate)
+
+orc.attack(orc2)
+orc2.attack(orc)
+orc2.attack(orc)
+orc2.attack(orc)
+
