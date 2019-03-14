@@ -19,32 +19,32 @@ class Knife(Weapon):
         super(Knife, self).__init__("Knife", 7, 76)
 
 
-class Browning_Hi_point(Weapon):
+class BrowningHipoint(Weapon):
     def __init__(self):
-        super(Browning_Hi_point, self).__init__("Browning_Hi_point", 21, 97)
+        super(BrowningHipoint, self).__init__("Browning_Hi_point", 21, 97)
 
     def shoot(self):
         self.durability -= 3
         print("You shoot your pistol.")
 
 
-class rusty_Scissors(Weapon):
+class Rustyscissors(Weapon):
     def __init__(self):
-        super(rusty_Scissors, self).__init__("rusty_Scissors", 3, 32)
+        super(Rustyscissors, self).__init__("rusty_Scissors", 3, 32)
 
 
-class P90_B_Shot(Weapon):
+class P90BShot(Weapon):
     def __init__(self):
-        super(P90_B_Shot, self).__init__("P90_B_Shot", 29, 147)
+        super(P90BShot, self).__init__("P90_B_Shot", 29, 147)
 
     def shoot(self):
         self.durability -= 4
         print("Your guns durability went down.")
 
 
-class spoon(Weapon):
+class Spoon(Weapon):
     def __init__(self):
-        super(spoon, self).__init__("spoon", 40, 400)
+        super(Spoon, self).__init__("spoon", 40, 400)
 
 
 class Armor(Item):
@@ -54,34 +54,34 @@ class Armor(Item):
         self.durability = durability
 
 
-class wooden_chest_plate(Armor):
+class Woodenchestplate(Armor):
     def __init__(self):
-        super(wooden_chest_plate, self).__init__("wooden chest plate", 10, 25)
+        super(Woodenchestplate, self).__init__("wooden chest plate", 10, 25)
 
 
-class wooden_helmet(Armor):
+class Woodenhelmet(Armor):
     def __init__(self):
-        super(wooden_helmet, self).__init__("wooden helmet", 5, 20)
+        super(Woodenhelmet, self).__init__("wooden helmet", 5, 20)
 
 
-class wooden_leggings(Armor):
+class Woodenleggings(Armor):
     def __init(self):
-        super(wooden_leggings, self).__init__("wooden leggings", 10, 25)
+        super(Woodenleggings, self).__init__("wooden leggings", 10, 25)
 
 
-class steel_chest_plate(Armor):
+class Steelchestplate(Armor):
     def __init__(self):
-        super(steel_chest_plate, self).__init__("steel chest plate", 20, 50)
+        super(Steelchestplate, self).__init__("steel chest plate", 20, 50)
 
 
-class steel_helmet(Armor):
+class Steelhelmet(Armor):
     def __init__(self):
-        super(steel_helmet, self).__init__("steel helmet", 15, 40)
+        super(Steelhelmet, self).__init__("steel helmet", 15, 40)
 
 
-class steel_leggings(Armor):
+class Steelleggings(Armor):
     def __init__(self):
-        super(steel_leggings, self).__init__("steel leggings", 20, 45)
+        super(Steelleggings, self).__init__("steel leggings", 20, 45)
 
 
 class Potion(Item):
@@ -92,19 +92,19 @@ class Potion(Item):
         self.attack_potion = attack_potion
 
 
-class health_potion(Potion):
+class Healthpotion(Potion):
     def __init__(self):
-        super(health_potion, self).__init__("health_potion", 25, 0, 0)
+        super(Healthpotion, self).__init__("health_potion", 25, 0, 0)
 
 
-class shield_potion(Potion):
+class Shieldpotion(Potion):
     def __init__(self):
-        super(shield_potion, self).__init__("shield potion", 0, 25, 0)
+        super(Shieldpotion, self).__init__("shield potion", 0, 25, 0)
 
 
-class attack_potion(Potion):
+class Attackpotion(Potion):
     def __init__(self):
-        super(attack_potion, self).__init__("attack potion", 0, 0, 20)
+        super(Attackpotion, self).__init__("attack potion", 0, 0, 20)
 
 
 class Character(object):
@@ -115,13 +115,19 @@ class Character(object):
         self.armor = armor
 
     def take_damage(self, damage: int):
-        if self.armor.armor_amt > damage:
+        if self.armor.defence> damage:
             print("You take no damage just because.")
         else:
-            self.health -= damage - self.armor.armor_amt
+            self.health -= damage - self.armor.defence
+            if self.health < 0:
+                self.health = 0
+                print("%s has fallen" % self.name)
         print("%s has %s health left" % (self.name, self.health))
 
     def attack(self, target):
+        if target.health <= 0:
+            print("They are already dead.")
+            return
         print("%s attacks %s for %s damage" % (self.name, target.name, self.weapon.damage))
         target.take_damage(self.weapon.damage)
 
@@ -132,11 +138,10 @@ spoon = Weapon("Spoon", 400, 400)
 steel_chest_plate = Armor("steel_chest_plate", 40, 500)
 
 # Characters
-orc = Character("Orcl", 100, P90, Armor("Steel chestplate", 2, 40))
+orc = Character("Orc1", 100, P90_B_Shot, Armor("Steel chest plate", 40, 500))
 orc2 = Character("Wiebe", 10000, spoon, steel_chest_plate)
 
 orc.attack(orc2)
 orc2.attack(orc)
 orc2.attack(orc)
 orc2.attack(orc)
-
