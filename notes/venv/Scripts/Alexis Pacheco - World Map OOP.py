@@ -22,7 +22,6 @@ class Player(object):
         """
         self.current_location = new_location
 
-
     def find_next_room(self, direction):
         """This method searches the current room so see if a room
         exists in that direction.
@@ -36,7 +35,10 @@ class Player(object):
 
 MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None, "You wake up in a very filthy room "
                                                                                   "and you do not remember"
-                                                                                  " how you got there.")
+                                                                                  " how you got there. There is a "
+                                                                                  "couch in the middle of the room"
+                                                                                  "and a chimney that has not been"
+                                                                                  "")
 SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, None, "You are in a small room and notice "
                                                                                    "a small table on your left and on "
                                                                                    "your right"

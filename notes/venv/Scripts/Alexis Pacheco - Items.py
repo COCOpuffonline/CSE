@@ -115,7 +115,7 @@ class Character(object):
         self.armor = armor
 
     def take_damage(self, damage: int):
-        if self.armor.defence> damage:
+        if self.armor.defence > damage:
             print("You take no damage just because.")
         else:
             self.health -= damage - self.armor.defence
@@ -142,6 +142,5 @@ orc = Character("Orc1", 100, P90_B_Shot, Armor("Steel chest plate", 40, 500))
 orc2 = Character("Wiebe", 10000, spoon, steel_chest_plate)
 
 orc.attack(orc2)
-orc2.attack(orc)
 orc2.attack(orc)
 orc2.attack(orc)

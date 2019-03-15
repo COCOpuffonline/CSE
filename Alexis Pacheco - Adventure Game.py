@@ -14,7 +14,7 @@ world_map = {
                        " you see a hole in the floor.",
         'PATHS': {
             'WEST': 'MAIN_ROOM',
-            'SOUTH': 'BASEMENT'
+            'DOWN': 'BM_SECRET_ROOM'
         }
     },
     'HALLWAY_2': {
@@ -143,7 +143,7 @@ world_map = {
                        " a door with a little light coming out, and to the"
                        " east is another room.",
         'PATHS': {
-            'SOUTH': 'LIVING_ROOM',
+            'EAST': 'LIVING_ROOM',  # THIS MAY BE SOUTH
             'WEST': 'BASEMENT_SUPPLY_ROOM'
         }
     },
@@ -159,7 +159,7 @@ world_map = {
     },
     'BODY_STORAGE_ROOM': {
         'NAME': 'Body storage room',
-        'DESCRIPTION': "You notice a two body bags on a table on is open and the other is not.",
+        'DESCRIPTION': "You notice a two body bags on a table one is open and the other is not.",
         'PATHS': {
             'SOUTH': 'BASEMENT_SUPPLY_ROOM',
             'EAST': 'BASEMENT_TOOL_STORAGE'
