@@ -46,8 +46,9 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="2" />
@@ -57,6 +58,7 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.47" value="3" />
           <entry key="project.open.time.48" value="1" />
@@ -78,17 +80,17 @@
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="25023" />
+          <entry key="py" value="25168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="25023" />
+          <entry key="Python" value="25168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,26 +112,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
+                <state relative-caret-position="816">
                   <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1399">
+                <state relative-caret-position="1366">
                   <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="146" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2125">
-                  <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+                  <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
                   <folding>
                     <marker date="1552671536866" expanded="true" signature="19:24" ph="..." />
                   </folding>
@@ -140,35 +142,16 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/The whole enchilada.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2059">
-                  <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+                <state relative-caret-position="362">
+                  <caret line="245" column="88" selection-start-line="245" selection-start-column="88" selection-end-line="245" selection-end-column="88" />
                   <folding>
-                    <element signature="e#6684#7052#0" />
-                    <element signature="e#7142#7528#0" />
-                    <element signature="e#7607#7959#0" />
-                    <element signature="e#8044#8407#0" />
-                    <element signature="e#8497#8759#0" />
-                    <element signature="e#8844#8978#0" />
-                    <element signature="e#9051#9179#0" />
-                    <element signature="e#9252#9398#0" />
-                    <element signature="e#9485#9856#0" />
-                    <element signature="e#9952#10436#0" />
-                    <element signature="e#10524#10651#0" />
-                    <element signature="e#10741#11101#0" />
-                    <element signature="e#11195#11334#0" />
-                    <element signature="e#11424#11799#0" />
-                    <element signature="e#11885#12015#0" />
-                    <element signature="e#12110#12711#0" />
-                    <element signature="e#12855#12989#0" />
-                    <element signature="e#13299#13660#0" />
-                    <element signature="e#13656#19465#0" />
-                    <marker date="1553100294828" expanded="true" signature="2002:2195" ph="..." />
-                    <marker date="1553100294828" expanded="true" signature="4585:4588" ph="..." />
-                    <marker date="1553100294828" expanded="true" signature="19109:19111" ph="..." />
+                    <marker date="1553186648519" expanded="true" signature="2024:2217" ph="..." />
+                    <marker date="1553186648519" expanded="true" signature="4607:4610" ph="..." />
+                    <marker date="1553186648519" expanded="true" signature="19234:19236" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -233,7 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -558,16 +541,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1399">
-          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alexis Pacheco - Adventure Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="816">
           <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
         </state>
       </provider>
@@ -575,40 +551,28 @@
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - World Map OOP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
-          <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
           <folding>
             <marker date="1552671536866" expanded="true" signature="19:24" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/Alexis Pacheco - Items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1366">
+          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/The whole enchilada.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2059">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="362">
+          <caret line="245" column="88" selection-start-line="245" selection-start-column="88" selection-end-line="245" selection-end-column="88" />
           <folding>
-            <element signature="e#6684#7052#0" />
-            <element signature="e#7142#7528#0" />
-            <element signature="e#7607#7959#0" />
-            <element signature="e#8044#8407#0" />
-            <element signature="e#8497#8759#0" />
-            <element signature="e#8844#8978#0" />
-            <element signature="e#9051#9179#0" />
-            <element signature="e#9252#9398#0" />
-            <element signature="e#9485#9856#0" />
-            <element signature="e#9952#10436#0" />
-            <element signature="e#10524#10651#0" />
-            <element signature="e#10741#11101#0" />
-            <element signature="e#11195#11334#0" />
-            <element signature="e#11424#11799#0" />
-            <element signature="e#11885#12015#0" />
-            <element signature="e#12110#12711#0" />
-            <element signature="e#12855#12989#0" />
-            <element signature="e#13299#13660#0" />
-            <element signature="e#13656#19465#0" />
-            <marker date="1553100294828" expanded="true" signature="2002:2195" ph="..." />
-            <marker date="1553100294828" expanded="true" signature="4585:4588" ph="..." />
-            <marker date="1553100294828" expanded="true" signature="19109:19111" ph="..." />
+            <marker date="1553186648519" expanded="true" signature="2024:2217" ph="..." />
+            <marker date="1553186648519" expanded="true" signature="4607:4610" ph="..." />
+            <marker date="1553186648519" expanded="true" signature="19234:19236" ph="..." />
           </folding>
         </state>
       </provider>

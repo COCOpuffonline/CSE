@@ -1,5 +1,5 @@
 class Room(object):
-    def __init__(self, name, north, south, east, west, up, down, description):
+    def __init__(self, name, north, south, east, west, up, down, item, description):
         self.name = name
         self.north = north
         self.south = south
@@ -7,6 +7,7 @@ class Room(object):
         self.west = west
         self.up = up
         self.down = down
+        self.item =item
         self.description = description
 
 
@@ -19,7 +20,7 @@ class Player(object):
         self.inventory = []
 
     def move(self, new_location):
-        
+
         self.current_location = new_location
 
     def find_next_room(self, direction):
@@ -200,49 +201,49 @@ molded = Character("Molded", 100, None, Armor("", None, None))
 molded2 = Character("Molded", 100, None, Armor("", None, None))
 
 
-MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None, "You wake up in a very filthy room "
+MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None, 'BrowningHipoint', "You wake up in a very filthy room "
                                                                                   "and you do not remember"
                                                                                   " how you got there. There is a "
                                                                                   "couch in the middle of the room"
                                                                                   "and a chimney that has not been"
                                                                                   "")
-SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, None, "You are in a small room and notice "
+SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, None, 'Rustyscissors', "You are in a small room and notice "
                                                                                    "a small table on your left and on "
                                                                                    "your right"
                                                                                    " you see a hole in the floor.")
-HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None, None, "To the north you see a door, "
+HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None, None, None, "To the north you see a door, "
                                                                                         "on the south side there is "
                                                                                         "another door, and to the west "
                                                                                         "is a room without a door.")
-KITCHEN = Room('Kitchen', None, None, 'HALLWAY_2', 'HALLWAY_3', None, None,  "In the kitchen you see a cabinet with "
+KITCHEN = Room('Kitchen', None, None, 'HALLWAY_2', 'HALLWAY_3', None, None, 'Knife', "In the kitchen you see a cabinet with "
                                                                              "two drawers on the south side."
                                                                              "To the north is a very dirty "
                                                                              "refrigerator.")
-STORAGE_ROOM_1 = Room('Storage room 1', None, None, 'HALLWAY_2', None, None, None, "You see a door that is boarded up "
+STORAGE_ROOM_1 = Room('Storage room 1', None, None, 'HALLWAY_2', None, None, None, 'P90BShot', "You see a door that is boarded up "
                                                                                    "and cannot be pried open."
                                                                                    "You also notice a self with "
                                                                                    "some items on it")
-HALLWAY_1 = Room('Hallway 1', 'STORAGE_ROOM_2', 'BATHROOM', 'STAIRS', None, None, None, "There are three doors one to "
+HALLWAY_1 = Room('Hallway 1', 'STORAGE_ROOM_2', 'BATHROOM', 'STAIRS', None, None, None, None, "There are three doors one to "
                                                                                         "the north, one to the south, "
                                                                                         "and one on the east.")
-STORAGE_ROOM_2 = Room('Storage room 2', None, 'HALLWAY_1', None, None, None, None, "All around you are shelves with "
+STORAGE_ROOM_2 = Room('Storage room 2', None, 'HALLWAY_1', None, None, None, None, None, "All around you are shelves with "
                                                                                    "items on them.")
-BATHROOM = Room('Bathroom', 'HALLWAY_1', None, None, None, None, None, "You are in a filthy bathroom and hear water "
+BATHROOM = Room('Bathroom', 'HALLWAY_1', None, None, None, None, None, 'Spoon', "You are in a filthy bathroom and hear water "
                                                                        "running.")
-HALLWAY_3 = Room('Hallway 3', None, None, 'KITCHEN', None, None, None, "To the south you see a door and you also "
+HALLWAY_3 = Room('Hallway 3', None, None, 'KITCHEN', None, None, None, None, "To the south you see a door and you also "
                                                                        "notice a cabinet on the west.")
-STAIRS = Room('Stairs', None, None, None, None, 'HALLWAY_1', 'BASEMENT_SUPPLY_ROOM', "You are now in the middle of the"
+STAIRS = Room('Stairs', None, None, None, None, 'HALLWAY_1', 'BASEMENT_SUPPLY_ROOM', None, "You are now in the middle of the"
                                                                                      "stairs, you can go back up to "
                                                                                      "the first floor or go down to "
                                                                                      "the basement.")
-BM_SECRET_ROOM = Room('BM Secret Room', None, 'PRISON_ROOM', None, None, 'SECRET_ROOM', None, "The room is slightly"
+BM_SECRET_ROOM = Room('BM Secret Room', None, 'PRISON_ROOM', None, None, 'SECRET_ROOM', None,  "The room is slightly"
                                                                                               " flood up to your "
                                                                                               "ankles and there are "
                                                                                               "a few bodies on a table"
                                                                                               "which stink.")
-PRISON_ROOM = Room('Prison room', 'SECRET_ROOM', None, None, 'WORK_SHOP', None, None, "It is dark and there are two "
+PRISON_ROOM = Room('Prison room', 'SECRET_ROOM', None, None, 'WORK_SHOP', None, None, None, "It is dark and there are two "
                                                                                       "shelves")
-WORK_ROOM = Room('Work room', None, 'DISSECTION_ROOM', 'PRISON_ROOM', None, None, None, "You have reached the work "
+WORK_ROOM = Room('Work room', None, 'DISSECTION_ROOM', 'PRISON_ROOM', None, None, None,  "You have reached the work "
                                                                                         "room and notice a few tools "
                                                                                         "on the bench which you can "
                                                                                         "you.")
