@@ -12,11 +12,10 @@ class Room(object):
 
 
 class Player(object):
-    def __init__(self, starting_location, health, shield, inventory):
+    def __init__(self, starting_location, health, shield):
         self.current_location = starting_location
         self.health = health
         self.shield = shield
-        self.inventory = inventory
         self.inventory = []
 
     def move(self, new_location):
@@ -197,7 +196,7 @@ shieldpotion = Potion("Shield potion", 0, 25, 0)
 attackpotion = Potion("Attack potion", 0, 0, 25)
 
 # Characters                    # Weap.         # Dam. # Dura.
-molded = Character("Molded", 100, None, Armor("", None, None))
+molded = Character("Molded", 100, Claw, Armor("", None, None))
 molded2 = Character("Molded", 100, None, Armor("", None, None))
 
 
@@ -466,12 +465,13 @@ world_map = {
         }
     }
 }
-                           # H # S # I
-player = Player(MAIN_ROOM, 100, 25, 6)
+                           # H # S
+player = Player(MAIN_ROOM, 100, 25)
 
 playing = True
 current_node = world_map['MAIN_ROOM']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
+actions = ['PICK UP', 'ATTACK', 'DROP', ]
 
 while playing:
     print(current_node['NAME'])
