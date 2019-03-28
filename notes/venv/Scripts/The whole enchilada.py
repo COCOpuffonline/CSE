@@ -191,7 +191,6 @@ steelleggings = Armor("Steel Leggings", 20, 45)
 
 # Potion
 healthpotion = Potion("Health potion", 25, 0, 0)
-
 shieldpotion = Potion("Shield potion", 0, 25, 0)
 attackpotion = Potion("Attack potion", 0, 0, 25)
 
@@ -206,7 +205,7 @@ MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None
                                                                                   " how you got there. There is a "
                                                                                   "couch in the middle of the room"
                                                                                   "and a chimney that has not been"
-                                                                                  "")
+                                                                                  " used.")
 SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, None, 'Rustyscissors',
                                                                                    "You are in a small room and notice "
                                                                                    "a small table on your left and on "
@@ -471,12 +470,11 @@ player = Player(MAIN_ROOM, 100, 25)
 playing = True
 current_node = world_map['MAIN_ROOM']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
-actions = ['PICK UP', 'ATTACK', 'DROP', ]
+actions = ['PICK UP', 'ATTACK', 'DROP', 'EAT' ]
 
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
-    print()
     command = input(">_")
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
@@ -488,5 +486,11 @@ while playing:
             print("I can't go that way")
         except AttributeError:
             pass
+    elif command.lower() in ['i', 'inventory']:
+        print("Your current inventory is:")
+        print(list(player.inventory))
+    elif command.lower() in ['pick up']:
+        print("You picked the item.")
+        player.inventory.append(self, object)
     else:
         print("Command Not Found")
