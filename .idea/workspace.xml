@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Object_Notes.coverage" NAME="Alexis Pacheco - Object Notes Coverage Results" MODIFIED="1550078537027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Shutdown_laptop.coverage" NAME="Shutdown laptop Coverage Results" MODIFIED="1547231284283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Adventure_Game.coverage" NAME="Alexis Pacheco - Adventure Game Coverage Results" MODIFIED="1553098312308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSE$The_whole_enchilada.coverage" NAME="The whole enchilada Coverage Results" MODIFIED="1554136074365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/CSE$The_whole_enchilada.coverage" NAME="The whole enchilada Coverage Results" MODIFIED="1554222901139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Semester_2_Notes.coverage" NAME="Semester 2 Notes Coverage Results" MODIFIED="1547571989639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___Object.coverage" NAME="Alexis Pacheco - Object Coverage Results" MODIFIED="1550250072293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
     <SUITE FILE_PATH="coverage/CSE$Alexis_Pacheco___World_Map_OOP.coverage" NAME="Alexis Pacheco - World Map OOP Coverage Results" MODIFIED="1552671370393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes/venv/Scripts" />
@@ -46,7 +46,7 @@
     <session id="250340669">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.11" value="3" />
@@ -62,6 +62,7 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.47" value="3" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="2" />
@@ -83,27 +84,27 @@
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.opened" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="26794" />
+          <entry key="py" value="27256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="26794" />
+          <entry key="Python" value="27256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="33" />
+          <entry key="py" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="33" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -113,14 +114,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/The whole enchilada.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="499" column="8" selection-start-line="499" selection-start-column="8" selection-end-line="499" selection-end-column="8" />
+            <state relative-caret-position="156">
+              <caret line="219" column="116" lean-forward="true" selection-start-line="219" selection-start-column="116" selection-end-line="219" selection-end-column="116" />
               <folding>
-                <element signature="e#15015#20857#0" />
-                <marker date="1554137075660" expanded="true" signature="1979:2172" ph="..." />
-                <marker date="1554137075660" expanded="true" signature="4562:4565" ph="..." />
-                <marker date="1554137075660" expanded="true" signature="4574:4575" ph="..." />
-                <marker date="1554137075660" expanded="true" signature="20900:20914" ph="..." />
+                <marker date="1554223471579" expanded="true" signature="1979:2172" ph="..." />
+                <marker date="1554223471579" expanded="true" signature="4562:4565" ph="..." />
+                <marker date="1554223471579" expanded="true" signature="4574:4575" ph="..." />
+                <marker date="1554223471579" expanded="true" signature="21073:21087" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3842">
+            <state relative-caret-position="528">
               <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
             </state>
           </provider>
@@ -188,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +402,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26885247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26885247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,24 +566,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/The whole enchilada.py">
+    <entry file="file://$PROJECT_DIR$/notes/hello world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="499" column="8" selection-start-line="499" selection-start-column="8" selection-end-line="499" selection-end-column="8" />
-          <folding>
-            <element signature="e#15015#20857#0" />
-            <marker date="1554137075660" expanded="true" signature="1979:2172" ph="..." />
-            <marker date="1554137075660" expanded="true" signature="4562:4565" ph="..." />
-            <marker date="1554137075660" expanded="true" signature="4574:4575" ph="..." />
-            <marker date="1554137075660" expanded="true" signature="20900:20914" ph="..." />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/hello world.py">
+    <entry file="file://$PROJECT_DIR$/notes/venv/Scripts/The whole enchilada.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3842">
-          <caret line="226" column="16" selection-start-line="226" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+        <state relative-caret-position="156">
+          <caret line="219" column="116" lean-forward="true" selection-start-line="219" selection-start-column="116" selection-end-line="219" selection-end-column="116" />
+          <folding>
+            <marker date="1554223471579" expanded="true" signature="1979:2172" ph="..." />
+            <marker date="1554223471579" expanded="true" signature="4562:4565" ph="..." />
+            <marker date="1554223471579" expanded="true" signature="4574:4575" ph="..." />
+            <marker date="1554223471579" expanded="true" signature="21073:21087" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
