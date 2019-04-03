@@ -201,8 +201,8 @@ molded2 = Character("Molded", 100, None, Armor("", None, None))
 
 MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None, 'BrowningHipoint',
                                                                                   "You wake up in a very filthy room "
-                                                                                  "and you do not remember"
-                                                                                  " how you got there. There is a "
+                                                                                  "and you do not remember how you "
+                                                                                  "got there. There is a "
                                                                                   "couch in the middle of the room"
                                                                                   "and a chimney that has not been"
                                                                                   " used.")
@@ -211,8 +211,8 @@ SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, Non
                                                                                    "a small table on your left and on "
                                                                                    "your right"
                                                                                    " you see a hole in the floor.")
-HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None, None, None ,"To the north you see a"
-                                                                                              " door, on the south side"
+HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None, None, None, "To the north you see a "
+                                                                                              "door, on the south side"
                                                                                               " there is another door,"
                                                                                               " and to the west is a"
                                                                                               " room without a door.")
@@ -471,7 +471,8 @@ item = True
 playing = True
 current_node = world_map['MAIN_ROOM']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
-actions = ['PICK UP', 'ATTACK', 'CONSUME']
+actions = ['PICK UP', 'ATTACK', 'DRINK']
+player.inventory = []
 
 while playing:
     print("Health = %s" % player.health)
@@ -479,10 +480,9 @@ while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
 
-    try:
-        print("There is a/an %s here." % player.current_location.item.name)
-    except AttributeError:
-        pass
+    if item == True:
+        print("There's a(n) %s here." % player.current_location.item)
+
     command = input(">_")
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
@@ -502,9 +502,11 @@ while playing:
         print("You picked up the item.")
         player.inventory.append(player.current_location.item)
         print(list(player.inventory))
-        player.current_location.item = None
-    elif command.lower() in ['eat']:
+        item = None
+    elif command.lower() in ['DRINK']:
         print("You feel energized.")
+        player.inventory.remove('item')
+        player.inventory = None
 
     else:
         print("Command Not Found")
