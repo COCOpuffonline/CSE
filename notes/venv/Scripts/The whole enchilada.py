@@ -1,5 +1,5 @@
 class Room(object):
-    def __init__(self, name, north, south, east, west, up, down, item, description):
+    def __init__(self, name, north, south, east, west, up, down,description, item=None):
         self.name = name
         self.north = north
         self.south = south
@@ -179,20 +179,20 @@ rustyscissors = Weapon("Rusty Scissors", 3, 32)
 p90BShot = Weapon("P90 Burst Shot", 29, 147)
 spoon = Weapon("Spoon", 40, 400)
 claw = Weapon("Claw", 4, 9999999999)
-fist = Weapon("Fist", 1, 9999999999)
+fist = Fist()
 
 # Armor
-woodenchestplate = Armor("Wooden Chest Plate", 10, 25)
-woodenhelmet = Armor("Wooden Helmet", 5, 20)
-woodenleggings = Armor("Wooden Leggings", 10, 25)
-steelchestplate = Armor("Steel Chest Plate", 20, 50)
-steelhelmet = Armor("Steel Helmet", 15, 40)
-steelleggings = Armor("Steel Leggings", 20, 45)
+woodenchestplate = Woodenchestplate()
+woodenhelmet = Woodenhelmet()
+woodenleggings = Woodenleggings()
+steelchestplate = Steelchestplate()
+steelhelmet = Steelhelmet()
+steelleggings = Steelleggings()
 
 # Potion
-healthpotion = Potion("Health potion", 25, 0, 0)
-shieldpotion = Potion("Shield potion", 0, 25, 0)
-attackpotion = Potion("Attack potion", 0, 0, 25)
+healthpotion = Healthpotion()
+shieldpotion = Shieldpotion()
+attackpotion = Attackpotion()
 
 # Characters                    # Weap.         # Dam. # Dura.
 molded = Character("Molded", 100, Claw, Armor("", None, None))
@@ -479,12 +479,7 @@ while playing:
     print("Shield = %s" % player.shield)
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
-
-    try:
-        print("There is a %s here." % player.current_location.item)
-    except AttributeError:
-        pass
-
+    print('There is a %s here' % player.current_location.item.name.lower())
     command = input(">_")
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
@@ -500,11 +495,14 @@ while playing:
     elif command.lower() in ['i', 'inventory']:
         print("Your current inventory is:")
         print(list(player.inventory))
-    elif command.lower() in ['pick up', 'grab']:
-        print("You picked up the item.")
-        player.inventory.append(player.current_location.item)
-        print(list(player.inventory))
-        item = None
+    elif player.current_location.item is not None and ('pick up' in command.lower() or 'grab' in command.lower()):
+        try:
+            print("You picked up the item.")
+            player.inventory.append(player.current_location.item)
+            player.current_location.item = None
+        except AttributeError:
+            print("You cannot pick this up")
+            pass
     elif command.lower() in ['DRINK']:
         print("You feel energized.")
         player.inventory.remove('item')

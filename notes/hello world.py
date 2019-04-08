@@ -225,7 +225,7 @@ brands = ("apple", "samsung", "HTC")  # Notice the parentheses
 
 # Also removing stuff from a list
 print(food_list)
-food_list.pop(0)
+
 print(food_list)
 
 # Find the index of an item
