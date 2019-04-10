@@ -1,3 +1,4 @@
+print("I know that there are problems, calm down")
 class Room(object):
     def __init__(self, name, north, south, east, west, up, down, description, item=None):
         self.name = name
@@ -449,6 +450,7 @@ item = True
 playing = True
 current_node = world_map['MAIN_ROOM']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
+short_directions = ['n', 's', 'e', 'w', 'u', 'd']
 actions = ['PICK UP', 'ATTACK', 'DRINK']
 player.inventory = []
 
@@ -458,7 +460,13 @@ while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
     print("There is a %s here" % player.current_location.item)
+
     command = input(">_")
+
+    if command.lower() in short_directions:
+        pos = short_directions.index(command.lower())
+        command = directions[pos]
+
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
     elif command.upper() in directions:
