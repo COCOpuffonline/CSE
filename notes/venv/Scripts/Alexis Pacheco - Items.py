@@ -4,47 +4,34 @@ class Item(object):
 
 
 class Weapon(Item):
-    def __init__(self, name, damage, durability):
+    def __init__(self, name, damage):
         super(Weapon, self).__init__(name)
         self.damage = damage
-        self.durability = durability
-
-    def use_weapon(self):
-        self.durability -= 5
-        print("You use your weapon and its durability drops.")
 
 
 class Knife(Weapon):
     def __init__(self):                   # Dam. Dura.
-        super(Knife, self).__init__("Knife", 7, 76)
+        super(Knife, self).__init__("Knife", 7)
 
 
 class BrowningHipoint(Weapon):
     def __init__(self):
-        super(BrowningHipoint, self).__init__("Browning_Hi_point", 21, 97)
-
-    def shoot(self):
-        self.durability -= 3
-        print("You shoot your pistol.")
+        super(BrowningHipoint, self).__init__("Browning_Hi_point", 21)
 
 
 class Rustyscissors(Weapon):
     def __init__(self):
-        super(Rustyscissors, self).__init__("rusty_Scissors", 3, 32)
+        super(Rustyscissors, self).__init__("rusty_Scissors", 3)
 
 
 class P90BShot(Weapon):
     def __init__(self):
-        super(P90BShot, self).__init__("P90_B_Shot", 29, 147)
-
-    def shoot(self):
-        self.durability -= 4
-        print("Your guns durability went down.")
+        super(P90BShot, self).__init__("P90_B_Shot", 29)
 
 
 class Spoon(Weapon):
     def __init__(self):
-        super(Spoon, self).__init__("spoon", 40, 400)
+        super(Spoon, self).__init__("spoon", 40)
 
 
 class Armor(Item):
@@ -133,13 +120,30 @@ class Character(object):
 
 
 # Items
-P90_B_Shot = Weapon("P90 burst shot", 40, 600)
-spoon = Weapon("Spoon", 400, 400)
-steel_chest_plate = Armor("steel_chest_plate", 40, 500)
+knife = Weapon("Knife", 7)
+browningHipoint = Weapon("Browning Hi Point", 21)
+rustyscissors = Weapon("Rusty scissors", 3)
+p90BShot = Weapon("P90 Burst Shot", 29)
+spoon = Weapon("Spoon", 40)
+claw = Weapon("Claw", 4)
+fist = Weapon("Fist", 1)
+
+# Armor
+woodenchestplate = Armor("Wooden chest plate", 10, 25)
+woodenhelmet = Armor("Wooden helmet", 5, 20)
+woodenleggings = Armor("Wooden leggings", 10, 25)
+steelchestplate = Armor("Steel chest plate", 20, 50)
+steelhelmet = Armor("Steel helmet", 15, 40)
+steelleggings = Armor("Steel leggings", 20, 45)
+
+# Potion
+healthpotion = Potion("Health potion", 25, 0, 0)
+shieldpotion = Potion("Shield potion", 0, 25, 0)
+attackpotion = Potion("Attack potion", 0, 0, 25)
 
 # Characters
-orc = Character("Orc1", 100, P90_B_Shot, Armor("Steel chest plate", 40, 500))
-orc2 = Character("Wiebe", 10000, spoon, steel_chest_plate)
+orc = Character("Orc1", 100, spoon, Armor("Steel chest plate", 40, 500))
+orc2 = Character("Wiebe", 10000, spoon, Armor("Steel chest plate", 40, 500))
 
 orc.attack(orc2)
 orc2.attack(orc)

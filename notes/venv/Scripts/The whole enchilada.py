@@ -1,5 +1,5 @@
-print("I know that there are problems, calm down")
 class Room(object):
+
     def __init__(self, name, north, south, east, west, up, down, description, item=None):
         self.name = name
         self.north = north
@@ -41,7 +41,7 @@ class Weapon(Item):
 
 
 class Knife(Weapon):
-    def __init__(self):                   # Dam.
+    def __init__(self):                   # Dam. Dura.
         super(Knife, self).__init__("Knife", 7)
 
 
@@ -63,16 +63,6 @@ class P90BShot(Weapon):
 class Spoon(Weapon):
     def __init__(self):
         super(Spoon, self).__init__("spoon", 40)
-
-
-class Fist(Weapon):
-    def __init__(self):
-        super(Fist, self).__init__("fist", 1)
-
-
-class Claw(Weapon):
-    def __init__(self):
-        super(Claw, self).__init__("claw", 4)
 
 
 class Armor(Item):
@@ -160,11 +150,11 @@ class Character(object):
         target.take_damage(self.weapon.damage)
 
 
-# Weapons
+# Items
 knife = Weapon("Knife", 7)
 browningHipoint = Weapon("Browning Hi Point", 21)
 rustyscissors = Weapon("Rusty scissors", 3)
-p90BShot = Weapon("P90 Burt Shot", 29)
+p90BShot = Weapon("P90 Burst Shot", 29)
 spoon = Weapon("Spoon", 40)
 claw = Weapon("Claw", 4)
 fist = Weapon("Fist", 1)
@@ -183,8 +173,8 @@ shieldpotion = Potion("Shield potion", 0, 25, 0)
 attackpotion = Potion("Attack potion", 0, 0, 25)
 
 # Characters                    # Weap.         # Dam. # Dura.
-molded = Character("Molded", 100, Claw, Armor("", None, None))
-molded2 = Character("Molded", 100, None, Armor("", None, None))
+molded = Character("Molded", 100, "claw", Armor("", 4, None))
+molded2 = Character("Molded", 100, "claw", Armor("", None, None))
 
 
 MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None, "You wake up in a very filthy room "
@@ -454,12 +444,16 @@ short_directions = ['n', 's', 'e', 'w', 'u', 'd']
 actions = ['PICK UP', 'ATTACK', 'DRINK']
 player.inventory = []
 
+
 while playing:
     print("Health = %s" % player.health)
     print("Shield = %s" % player.shield)
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
-    print("There is a %s here" % player.current_location.item)
+    if player.current_location.item:
+        print("There is a %s here." % player.current_location.item)
+    else:
+        print("There is nothing in this location.")
 
     command = input(">_")
 
