@@ -1,34 +1,3 @@
-class Room(object):
-
-    def __init__(self, name, north, south, east, west, up, down, description, item=None):
-        self.name = name
-        self.north = north
-        self.south = south
-        self.east = east
-        self.west = west
-        self.up = up
-        self.down = down
-        self.item = item
-        self.description = description
-
-
-class Player(object):
-    def __init__(self, starting_location, health, shield):
-        self.current_location = starting_location
-        self.health = health
-        self.shield = shield
-        self.inventory = []
-
-    def move(self, new_location):
-
-        self.current_location = new_location
-
-    def find_next_room(self, direction):
-
-        name_of_room = getattr(self.current_location, direction)
-        return globals()[name_of_room]
-
-
 class Item(object):
     def __init__(self, name):
         self.name = name
@@ -47,17 +16,17 @@ class Knife(Weapon):
 
 class BrowningHipoint(Weapon):
     def __init__(self):
-        super(BrowningHipoint, self).__init__("Browning_Hi_point", 21)
+        super(BrowningHipoint, self).__init__("Browning Hi point", 21)
 
 
 class Rustyscissors(Weapon):
     def __init__(self):
-        super(Rustyscissors, self).__init__("rusty_Scissors", 5)
+        super(Rustyscissors, self).__init__("rusty Scissors", 5)
 
 
 class P90BShot(Weapon):
     def __init__(self):
-        super(P90BShot, self).__init__("P90_B_Shot", 29)
+        super(P90BShot, self).__init__("P90 Burst Shot", 29)
 
 
 class Spoon(Weapon):
@@ -112,11 +81,11 @@ class Steelleggings(Armor):
 
 
 class Potion(Item):
-    def __init__(self, name, health_healed, shield, attack_potion):
+    def __init__(self, name, health_healed, shield, attack_boost):
         super(Potion, self).__init__(name)
         self.health_healed = health_healed
         self.shield = shield
-        self.attack_potion = attack_potion
+        self.attack_boost = attack_boost
 
 
 class Healthpotion(Potion):
@@ -131,7 +100,7 @@ class Shieldpotion(Potion):
 
 class Attackpotion(Potion):
     def __init__(self):
-        super(Attackpotion, self).__init__("attack potion", 0, 0, 20)
+        super(Attackpotion, self).__init__("attack potion", 0, 0, 25)
 
 
 class Character(object):
@@ -159,6 +128,37 @@ class Character(object):
         target.take_damage(self.weapon.damage)
 
 
+class Room(object):
+
+    def __init__(self, name, north, south, east, west, up, down, description, item):
+        self.name = name
+        self.north = north
+        self.south = south
+        self.east = east
+        self.west = west
+        self.up = up
+        self.down = down
+        self.item = item
+        self.description = description
+
+
+class Player(object):
+    def __init__(self, starting_location, health, shield):
+        self.current_location = starting_location
+        self.health = health
+        self.shield = shield
+        self.inventory = []
+
+    def move(self, new_location):
+
+        self.current_location = new_location
+
+    def find_next_room(self, direction):
+
+        name_of_room = getattr(self.current_location, direction)
+        return globals()[name_of_room]
+
+
 # Items
 knife = Weapon(7, "Knife")
 browningHipoint = Weapon(21, "Browning Hi Point")
@@ -171,15 +171,15 @@ fist = Weapon(3, "Fist")
 # Armor
 woodenchestplate = Armor(10, "Wooden Chest plate")
 woodenhelmet = Armor(5, "Wooden Helmet")
-woodenleggings = Armor(10, Woodenhelmet)
+woodenleggings = Armor(10, "Wooden Leggings")
 steelchestplate = Armor(20, "Steel Chest plate")
 steelhelmet = Armor(15, "Steel Helmet")
 steelleggings = Armor(20, "Steel Leggings")
 
 # Potion
-healthpotion = Potion()
-shieldpotion = Potion()
-attackpotion = Potion()
+healthpotion = Potion(0, 25, Healthpotion, 0)
+shieldpotion = Potion(0, 0, Shieldpotion, 25)
+attackpotion = Potion(25, 0, Attackpotion, 0)
 
 # Characters                    # Weap.         # Dam. # Dura.
 molded = Character("Molded", 100, "claw", Armor("", 4))
@@ -481,10 +481,11 @@ while playing:
     elif command.lower() in ['i', 'inventory']:
         print("Your current inventory is:")
         print(list(player.inventory))
+
     elif player.current_location.item is not None and ('pick up' in command.lower() or 'grab' in command.lower()):
         try:
             print("You picked up the item.")
-            player.inventory.append(player.current_location.item)
+            player.inventory.append(player.current_location.items)
             player.current_location.item = False
         except AttributeError:
             print("You cannot pick this up")
