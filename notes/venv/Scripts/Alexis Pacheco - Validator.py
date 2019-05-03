@@ -1,32 +1,30 @@
-def all_16_digits(num: str):
+def all_16_digits(num: str):                    # Works
     if len(num) == 16:
         print(num)
+        print("This is 16 digits.")
         return True
 
 
-def drop_num(num: str):
+def drop_num(num: str):                         # Works
     list_num = list(num)
     for index in range(len(list_num)):
         list_num[index] = int(list_num[index])
-        list_num.remove(15)
-        print(list_num)
+        list_num.pop(15)
+        return list_num
 
 
-def validate
+def reverse(num: str):                          # Works
+    list_num = list(num)
+    print(list_num[::-1])
 
 
-print(1947333886071750)
-
-# def reverse_it(number_list):
-#     print(number_list[17:0:-1])
-#
-#     reverse_it(number_list)
+def validate(num: str):
+    if not all_16_digits(num):
+        drop_num(num)
+    reverse(num)
 
 
-# def reverse_it(string):
-#     print(string[17:0:-1])
-#
-#     reverse_it(string)
+print(drop_num("1947333886071750"))
 
 
 # # The Luhn Formula:
