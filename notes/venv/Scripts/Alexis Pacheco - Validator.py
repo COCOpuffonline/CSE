@@ -3,6 +3,8 @@ def all_16_digits(num: str):                    # Works
         print(num)
         print("This is 16 digits.")
         return True
+    else:
+        print("This number does not have 16 digits.")
 
 
 def drop_num(num: str):                         # Works
@@ -18,13 +20,24 @@ def reverse(num: str):                          # Works
     print(list_num[::-1])
 
 
+def multiply(num: str):
+    for i in range(len(num)):
+        if num[i] % 2 != 0:
+            print(num[i] * 2)
+
+
 def validate(num: str):
     if not all_16_digits(num):
         drop_num(num)
     reverse(num)
+    multiply(num)
 
 
-print(drop_num("1947333886071750"))
+# print(all_16_digits("1947333886071750"))
+# print(drop_num("1947333886071750"))
+# print(reverse("1947333886071750"))
+print(multiply("1947333886071750"))
+
 
 
 # # The Luhn Formula:
