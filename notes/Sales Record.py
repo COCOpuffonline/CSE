@@ -1,19 +1,14 @@
 import csv
-profit_list = []
-
-
-def total_profit():
-    if row[2] == "Snacks":
-        profit_list.append(row[13])
-        print(profit_list)
+snacks_profit = []
 
 
 with open("Sales Records.csv", 'r') as old_csv:
     print("Reading File...   ")
     reader = csv.reader(old_csv)
     for row in reader:
-        row = row[2]
-        print(row)
+        if row[2] == "Snacks":
+            print(row[2])
+            print(row[13])
 
 
 # with open("MyNewFile.csv", 'w', newline='') as new_csv:
