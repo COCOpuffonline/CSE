@@ -1,5 +1,6 @@
 import csv
-snacks_profit = []
+total = 0
+div = 0
 
 
 with open("Sales Records.csv", 'r') as old_csv:
@@ -7,23 +8,10 @@ with open("Sales Records.csv", 'r') as old_csv:
     reader = csv.reader(old_csv)
     for row in reader:
         if row[2] == "Snacks":
-            print(row[2])
-            print(row[13])
+            total += float(row[13])
+            div += 1
+            Av = total / div
+print("The total profit of snacks is %s." % total)
+print("Snacks appeared %s times." % div)
+print("Average = %s" % Av)
 
-
-# with open("MyNewFile.csv", 'w', newline='') as new_csv:
-# Cereal, beverages, personal care, baby food, snacks, meat, household, cosmetics, vegetables, cloths, office supplies
-# , fruits# def get_total():
-# #     cereal_number == 0
-# #     beverages_number == 0
-# #     personal_care_number == 0
-# #     baby_food_number == 0
-# #     snacks_number == 0
-# #     meat_number == 0
-# #     household_number == 0
-# #     cosemetics_number == 0
-# #     vegetables_number == 0
-# #     cloths_number == 0
-# #     office_supplies_number == 0
-# #     fruits_number == 0
-# #
