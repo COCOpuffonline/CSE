@@ -6,7 +6,7 @@ div = 0
 with open("Sales Records.csv", 'r') as old_csv:
     print("Reading File...   ")
     reader = csv.reader(old_csv)
-    category_list = []
+    item_list = []
     cereal = 0
     baby_food = 0
     vegetables = 0
@@ -46,8 +46,33 @@ with open("Sales Records.csv", 'r') as old_csv:
         if row[2] == "Beverages":
             beverages += float(row[13])
 
+item_list.append(cereal)
+item_list.append(baby_food)
+item_list.append(vegetables)
+item_list.append(household)
+item_list.append(personal_care)
+item_list.append(snacks)
+item_list.append(cosmetics)
+item_list.append(office_supplies)
+item_list.append(meat)
+item_list.append(fruits)
+item_list.append(clothes)
+item_list.append(beverages)
 
-def max_num_in_list(list):
+print("Cereal profit is %s." % cereal)
+print("Baby food profit is %s." % baby_food)
+print("Vegetables profit is %s." % vegetables)
+print("Household profit is %s." % household)
+print("Personal profit is %s." % personal_care)
+print("Snacks profit is %s." % snacks)
+print("Cosmetics profit is %s." % cosmetics)
+print("Office supplies profit is %s." % office_supplies)
+print("Meat profit is %s." % meat)
+print("Fruits profit is %s." % fruits)
+print("Clothes profit is %s." % clothes)
+print("Beverages profit is %s." % beverages)
+
+def max_num(list):
     max = list[0]
     for a in list:
         if a > max:
@@ -55,18 +80,5 @@ def max_num_in_list(list):
     return max
 
 
-print(max_num_in_list(("%s, %s") % cereal , meat))
+print("The most profitable item made %s." % max_num(item_list))
 
-
-# print("Cereal profit = %s" % cereal)
-# print("Baby food profit = %s" % baby_food)
-# print("Vegetables profit = %s" % vegetables)
-# print("Household profit = %s" % household)
-# print("Personal care profit = %s" % personal_care)
-# print("Snacks profit = %s" % snacks)
-# print("Cosmetics profit = %s" % cosmetics)
-# print("Office supplies profit = %s" % office_supplies)
-# print("Meat profit = %s" % meat)
-# print("Fruit profit = %s" % fruits)
-# print("Clothes profit = %s" % clothes)
-# print("Beverages profit = %s" % beverages)

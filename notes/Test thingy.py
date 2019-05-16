@@ -6,4 +6,4 @@ def max_num_in_list(list):
     return max
 
 
-print(max_num_in_list([1, -2, -8, 0, 244]))
+print(max_num_in_list([1, -2, 1229, 0, 244]))
