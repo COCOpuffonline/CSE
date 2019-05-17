@@ -1,43 +1,40 @@
+def validate(num: str):
+    if not all_16_digits(num):
+        new_list = drop_num(num)
+        reverse(new_list)
+
+
 def all_16_digits(num: str):                    # Works
     if len(num) == 16:
         print(num)
         print("This is 16 digits.")
-        return True
-    else:
-        print("This number does not have 16 digits.")
 
 
 def drop_num(num: str):                         # Works
     list_num = list(num)
     for index in range(len(list_num)):
         list_num[index] = int(list_num[index])
-        list_num.pop(15)
-        return list_num
+    list_num.pop(15)
+    print(list_num)
+    print("The digit was removed.")
+    return list_num
 
 
 def reverse(num: str):                          # Works
     list_num = list(num)
     print(list_num[::-1])
+    print("The current number has been reversed.")
+#
+#
+# def multiply(num: str):
+#     for i in range(len(num)):
+#         if num[i] % 2 != 0:
+#             print(num[i] * 2)
+#
+#
 
 
-def multiply(num: str):
-    for i in range(len(num)):
-        if num[i] % 2 != 0:
-            print(num[i] * 2)
-
-
-def validate(num: str):
-    if not all_16_digits(num):
-        drop_num(num)
-    reverse(num)
-    multiply(num)
-
-
-# print(all_16_digits("1947333886071750"))
-# print(drop_num("1947333886071750"))
-# print(reverse("1947333886071750"))
-print(multiply("1947333886071750"))
-
+print(validate("1947333886071750"))
 
 
 # # The Luhn Formula:
