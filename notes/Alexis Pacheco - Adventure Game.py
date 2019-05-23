@@ -11,37 +11,37 @@ class Weapon(Item):
 
 class Knife(Weapon):
     def __init__(self):                   # Dam. Dura.
-        super(Knife, self).__init__(Knife, 7)
+        super(Knife, self).__init__("Knife", 7)
 
 
 class BrowningHipoint(Weapon):
     def __init__(self):
-        super(BrowningHipoint, self).__init__(BrowningHipoint, 21)
+        super(BrowningHipoint, self).__init__("BrowningHipoint", 21)
 
 
 class Rustyscissors(Weapon):
     def __init__(self):
-        super(Rustyscissors, self).__init__(Rustyscissors, 5)
+        super(Rustyscissors, self).__init__("Rustyscissors", 5)
 
 
 class P90BShot(Weapon):
     def __init__(self):
-        super(P90BShot, self).__init__(P90BShot, 29)
+        super(P90BShot, self).__init__("P90BShot", 29)
 
 
 class Spoon(Weapon):
     def __init__(self):
-        super(Spoon, self).__init__(Spoon, 40)
+        super(Spoon, self).__init__("Spoon", 40)
 
 
 class Claw(Weapon):
     def __init__(self):
-        super(Claw, self).__init__(Claw, 5)
+        super(Claw, self).__init__("Claw", 5)
 
 
 class Fist(Weapon):
     def __init__(self):
-        super(Fist, self).__init__(Fist, 3)
+        super(Fist, self).__init__("Fist", 3)
 
 
 class Armor(Item):
@@ -52,32 +52,32 @@ class Armor(Item):
 
 class Woodenchestplate(Armor):
     def __init__(self):
-        super(Woodenchestplate, self).__init__(Woodenchestplate, 10)
+        super(Woodenchestplate, self).__init__("Woodenchestplate", 10)
 
 
 class Woodenhelmet(Armor):
     def __init__(self):
-        super(Woodenhelmet, self).__init__(Woodenhelmet, 5)
+        super(Woodenhelmet, self).__init__("Woodenhelmet", 5)
 
 
 class Woodenleggings(Armor):
     def __init(self):
-        super(Woodenleggings, self).__init__(Woodenleggings, 10)
+        super(Woodenleggings, self).__init__("Woodenleggings", 10)
 
 
 class Steelchestplate(Armor):
     def __init__(self):
-        super(Steelchestplate, self).__init__(Steelchestplate, 20)
+        super(Steelchestplate, self).__init__("Steelchestplate", 20)
 
 
 class Steelhelmet(Armor):
     def __init__(self):
-        super(Steelhelmet, self).__init__(Steelhelmet, 15)
+        super(Steelhelmet, self).__init__("Steelhelmet", 15)
 
 
 class Steelleggings(Armor):
     def __init__(self):
-        super(Steelleggings, self).__init__(Steelleggings, 20)
+        super(Steelleggings, self).__init__("Steelleggings", 20)
 
 
 class Potion(Item):
@@ -90,17 +90,17 @@ class Potion(Item):
 
 class Healthpotion(Potion):
     def __init__(self):
-        super(Healthpotion, self).__init__(Healthpotion, 25, 0, 0)
+        super(Healthpotion, self).__init__("Healthpotion", 25, 0, 0)
 
 
 class Shieldpotion(Potion):
     def __init__(self):
-        super(Shieldpotion, self).__init__(Shieldpotion, 0, 25, 0)
+        super(Shieldpotion, self).__init__("Shieldpotion", 0, 25, 0)
 
 
 class Attackpotion(Potion):
     def __init__(self):
-        super(Attackpotion, self).__init__(Attackpotion, 0, 0, 25)
+        super(Attackpotion, self).__init__("Attackpotion", 0, 0, 25)
 
 
 class Character(object):
@@ -191,12 +191,12 @@ MAIN_ROOM = Room('Main Room', None, None, 'SECRET_ROOM', 'HALLWAY_2', None, None
                                                                                   "got there. There is a "
                                                                                   "couch in the middle of the room"
                                                                                   "and a chimney that has not been"
-                                                                                  " used.", BrowningHipoint)
+                                                                                  " used.", 'BrowningHipoint')
 SECRET_ROOM = Room('Secret room', None, 'BASEMENT', None, 'MAIN_ROOM', None, None, "You are in a small room and notice "
                                                                                    "a small table on your left and on "
                                                                                    "your right"
                                                                                    " you see a hole in the floor.",
-                                                                                   Rustyscissors)
+                                                                                   'Rusty scissors')
 HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None, None, None, "To the north you see a "
                                                                                               "door, on the south side"
                                                                                               " there is another door,"
@@ -205,20 +205,20 @@ HALLWAY_2 = Room('Hallway', 'KITCHEN', 'HALLWAY_1', None, 'STORAGE_ROOM_1', None
 KITCHEN = Room('Kitchen', None, None, 'HALLWAY_2', 'HALLWAY_3', None, None, "In the kitchen you see a cabinet with "
                                                                             "two drawers on the south side."
                                                                             "To the north is a very dirty "
-                                                                            "refrigerator.", Knife)
+                                                                            "refrigerator.", 'Knife')
 STORAGE_ROOM_1 = Room('Storage room 1', None, None, 'HALLWAY_2', None, None, None, "You see a door that is boarded up "
                                                                                    "and cannot be pried open."
                                                                                    "You also notice a self with "
-                                                                                   "some items on it", P90BShot)
+                                                                                   "some items on it", 'P90BShot')
 HALLWAY_1 = Room('Hallway 1', 'STORAGE_ROOM_2', 'BATHROOM', 'STAIRS', None, None, None, None, "There are three doors "
                                                                                               "one to the north, one"
                                                                                               " to the south, and one"
                                                                                               " on the east.")
 STORAGE_ROOM_2 = Room('Storage room 2', None, 'HALLWAY_1', None, None, None, None, "All around you are"
                                                                                    " shelves with items"
-                                                                                   " on them.", Healthpotion)
+                                                                                   " on them.", 'Healthpotion')
 BATHROOM = Room('Bathroom', 'HALLWAY_1', None, None, None, None, None, "You are in a filthy bathroom and hear water "
-                                                                       "running.", Spoon)
+                                                                       "running.", 'Spoon')
 HALLWAY_3 = Room('Hallway 3', None, None, 'KITCHEN', None, None, None, None, "To the south you see a door and you also "
                                                                              "notice a cabinet on the west.")
 STAIRS = Room('Stairs', None, None, None, None, 'HALLWAY_1', 'BASEMENT_SUPPLY_ROOM', None, "You are now in the middle"
@@ -231,16 +231,16 @@ BM_SECRET_ROOM = Room('BM Secret Room', None, 'PRISON_ROOM', None, None, 'SECRET
                                                                                               "ankles and there are "
                                                                                               "a few bodies on a table"
                                                                                               "which stink.",
-                      Steelchestplate)
+                      'Steelchestplate')
 PRISON_ROOM = Room('Prison room', 'SECRET_ROOM', None, None, 'WORK_SHOP', None, None, "It is dark and there are two "
-                                                                                      "shelves", Shieldpotion)
+                                                                                      "shelves", 'Shieldpotion')
 WORK_ROOM = Room('Work room', None, 'DISSECTION_ROOM', 'PRISON_ROOM', None, None, None, "You have reached the work "
                                                                                         "room and notice a few tools "
                                                                                         "on the bench which you can "
-                                                                                        "you.", Woodenhelmet)
+                                                                                        "you.", 'Woodenhelmet')
 DISSECTION_ROOM = Room('Dissection room', 'WORK_SHOP', None, 'HALLWAY_4', None, None, None, "You are in a damp room "
                                                                                             "which smells awful.",
-                                                                                            Attackpotion)
+                                                                                            'Attackpotio')
 HALLWAY_4 = Room('Hallway 4', 'LIVING_ROOM', None, None, 'DISSECTION_ROOM', None, None, None, "You are in a dark "
                                                                                               "hallway, to the west "
                                                                                               "is the dissection room"
@@ -248,7 +248,7 @@ HALLWAY_4 = Room('Hallway 4', 'LIVING_ROOM', None, None, 'DISSECTION_ROOM', None
                                                                                               "is another door.")
 LIVING_ROOM = Room('Living room', 'HALLWAY_5', 'HALLWAY_4', None, None, None, None, "This room is oddly dry and "
                                                                                     "has furniture.",
-                                                                                    Woodenchestplate)
+                                                                                    'Woodenchestplate')
 HALLWAY_5 = Room('Hallway 5', None, 'LIVING_ROOM', None, 'BASEMENT_SUPPLY_ROOM', None, None, None, "You can see two "
                                                                                                    "doors, on the west"
                                                                                                    " side you see a "
@@ -258,13 +258,13 @@ HALLWAY_5 = Room('Hallway 5', None, 'LIVING_ROOM', None, 'BASEMENT_SUPPLY_ROOM',
                                                                                                    " is another room.")
 BASEMENT_SUPPLY_ROOM = Room('Basement supply room', 'BODY_STORAGE_ROOM', 'STAIRS', 'HALLWAY_5', None, None, None,
                             "The stench in this room is awful and it is extremely dark."
-                            " You also hear weird noises on the ceiling.", Woodenleggings)
+                            " You also hear weird noises on the ceiling.", 'Woodenleggings')
 BODY_STORAGE_ROOM = Room('Body storage room', None, 'BASEMENT_TOOL_STORAGE', 'BASEMENT_TOOL_STORAGE', None, None, None,
-                         "You notice a two body bags on a table on is open and the other is not.", Steelleggings)
+                         "You notice a two body bags on a table on is open and the other is not.", 'Steelleggings')
 TOOL_STORAGE_ROOM = Room('Tool room', None, None, None, 'BODY_STORAGE_ROOM', None, None, "There are a whole bunch of"
                                                                                          " tool that you can use but "
                                                                                          "they are in locked tool"
-                                                                                         " boxes.", Steelhelmet)
+                                                                                         " boxes.", 'Steelhelmet')
 world_map = {
     'MAIN_ROOM': {
         'NAME': "Main Room",
@@ -457,7 +457,7 @@ while playing:
     print("Shield = %s" % player.shield)
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
-    print("There is a %s here." % player.current_location.item)
+    print(player.current_location.item)
 
     command = input(">_")
 
@@ -483,10 +483,16 @@ while playing:
     elif player.current_location.item is not None and ('pick up' in command.lower() or 'grab' in command.lower()):
         try:
             print("You picked up the item.")
-            player.inventory.append(player.current_location.item)  # <--- This is the pick up command
-            player.current_location.item = False
+            player.inventory.append(player.current_location.item)
+            player.current_location.item = None
         except AttributeError:
             print("You cannot pick this up")
+            pass
+
+    elif player.current_location.item is None:
+        try:
+            print()
+        except AttributeError:
             pass
 
     else:
